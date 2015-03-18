@@ -4,7 +4,7 @@ git 操作说明：
 3、git commit -m “disc”  提交到git库 并添加更改描述
 4、git status   查看git状态  是否有可更新文档
 5、git diff name.file 查看name.file文档有什么变化
-6、git log  显示从最近到最远的提交日志，
+6、git log  显示从最近到最远的提交日志，以便确定要回退到哪个版本。
 7、cat readme.txt  查看readme.txt中的内容
 8、git reset —hard 23e3   回到某个版本号  版本号可以只写前几位，如23e3
-9、git reflog 查看输入过的每次一命令
+9、git reflog 查看输入过的历史命令，以便确定要回到未来的哪个版本
