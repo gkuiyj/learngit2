@@ -6,4 +6,5 @@ git 操作说明：
 5、git diff name.file 查看name.file文档有什么变化
 6、git log  显示从最近到最远的提交日志，
 7、cat readme.txt  查看readme.txt中的内容
-8、
+8、git reset —hard 23e3   回到某个版本号  版本号可以只写前几位，如23e3
+9、git reflog 查看输入过的每次一命令
