@@ -1,0 +1,9 @@
+git 操作说明：
+1、git init   初始化
+2、git add readme.txt  添加文件到git库（文件必须是在git目录中）
+3、git commit -m “disc”  提交到git库 并添加更改描述
+4、git status   查看git状态  是否有可更新文档
+5、git diff name.file 查看name.file文档有什么变化
+6、git log  显示从最近到最远的提交日志，
+7、cat readme.txt  查看readme.txt中的内容
+8、
