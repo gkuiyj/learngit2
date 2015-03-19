@@ -17,6 +17,12 @@ git 操作说明：
 
 9、git reflog 查看输入过的历史命令，以便确定要回到未来的哪个版本
 
-10、git checkout — readme.txt 撤销修改，把readme.txt文件在工作区的修改全部撤销。
+10、git checkout —- readme.txt 撤销修改，把readme.txt文件在工作区的修改全部撤销。
 
 11、git reset HEAD readme.txt  回退修改，可以把暂存区的修改撤销掉（unstage），重新放回工作区。
+
+撤销修改分几种情况：
+1、只修改了工作区，还未add到暂存区，使用git checkout —- file 撤销工作区的修改。
+2、修改了工作区，且add到了暂存区，必须先使用git reset head file 回退暂存区的修改，然后再checkout撤销工作区修改。
+3、已经commit到分支了，参考版本回退流程。
+
