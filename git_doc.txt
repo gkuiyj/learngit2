@@ -26,3 +26,7 @@ git 操作说明：
 2、修改了工作区，且add到了暂存区，必须先使用git reset head file 回退暂存区的修改，然后再checkout撤销工作区修改。
 3、已经commit到分支了，参考版本回退流程。
 
+12、git rm text.txt  删除工作区的文件text.txt , 要保存到分支需git commit
+
+ 
+
