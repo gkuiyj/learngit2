@@ -1,0 +1,32 @@
+git 操作说明：
+1、git init   初始化
+
+2、git add readme.txt  添加文件到git库（文件必须是在git目录中）
+
+3、git commit -m “disc”  提交到git库 并添加更改描述
+
+4、git status   查看git状态  是否有可更新文档
+
+5、git diff name.file 查看name.file文档有什么变化
+
+6、git log  显示从最近到最远的提交日志，以便确定要回退到哪个版本。
+
+7、cat readme.txt  查看readme.txt中的内容
+
+8、git reset —hard 23e3   回退到某个版本号  版本号可以只写前几位，如23e3
+
+9、git reflog 查看输入过的历史命令，以便确定要回到未来的哪个版本
+
+10、git checkout —- readme.txt 撤销修改，把readme.txt文件在工作区的修改全部撤销。
+
+11、git reset HEAD readme.txt  回退修改，可以把暂存区的修改撤销掉（unstage），重新放回工作区。
+
+撤销修改分几种情况：
+1、只修改了工作区，还未add到暂存区，使用git checkout —- file 撤销工作区的修改。
+2、修改了工作区，且add到了暂存区，必须先使用git reset head file 回退暂存区的修改，然后再checkout撤销工作区修改。
+3、已经commit到分支了，参考版本回退流程。
+
+12、git rm text.txt  删除工作区的文件text.txt , 要保存到分支需git commit
+
+ 
+
