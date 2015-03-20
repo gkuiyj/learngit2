@@ -28,5 +28,11 @@ git 操作说明：
 
 12、git rm text.txt  删除工作区的文件text.txt , 要保存到分支需git commit
 
+13、git remote add origin git@server-name:path/repo-name.git；关联一个远程仓库
+关联后，使用命令git push -u origin master第一次推送master分支的所有内容；
+此后，每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改；
+
+14、git push origin master推送最新修改
+
  
 
